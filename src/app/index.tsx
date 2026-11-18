@@ -1,3 +1,4 @@
+import Exercicio1 from '@/components/Exercicio1';
 import { useState } from 'react';
 import { Keyboard, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaProvider, SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -17,6 +18,7 @@ import ExemploView from '../exemplos/ExemploView';
 
 // Cada exemplo tem export default e pode ser importado/instanciado isoladamente.
 const EXEMPLOS = [
+  { nome: 'Exercício 1', Componente: Exercicio1},
   { nome: 'Text', Componente: ExemploText },
   { nome: 'TextInput', Componente: ExemploTextInput },
   { nome: 'View', Componente: ExemploView },
