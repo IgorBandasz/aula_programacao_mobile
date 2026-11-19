@@ -1,4 +1,5 @@
 import Exercicio1 from "@/components/Exercicio1";
+import Exercicio2 from "@/components/Exercicio2";
 import { useState } from "react";
 import { Keyboard, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
@@ -6,6 +7,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 // Cada exemplo tem export default e pode ser importado/instanciado isoladamente.
 const EXERCICIOS = [
     { nome: 'Exercício 1', Componente: Exercicio1 },
+    { nome: 'Exercício 2', Componente: Exercicio2 }
 ];
 
 export default function Exercicios() {
