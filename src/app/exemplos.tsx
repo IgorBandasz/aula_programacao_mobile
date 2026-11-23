@@ -1,3 +1,4 @@
+import ExemploCondicional from '@/components/ExemploCondicional';
 import ExercicioTextInput from '@/components/ExercicioTextInput';
 import { useState } from 'react';
 import { Keyboard, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
@@ -18,7 +19,8 @@ import ExemploView from '../exemplos/ExemploView';
 
 // Cada exemplo tem export default e pode ser importado/instanciado isoladamente.
 const EXEMPLOS = [
-  { nome: 'Exemplo TextInput', Componente: ExercicioTextInput},  
+  { nome: 'Exemplo TextInput', Componente: ExercicioTextInput }, 
+  { nome: 'Exemplo Condicional', Componente: ExemploCondicional }, 
   { nome: 'Text', Componente: ExemploText },
   { nome: 'TextInput', Componente: ExemploTextInput },
   { nome: 'View', Componente: ExemploView },
