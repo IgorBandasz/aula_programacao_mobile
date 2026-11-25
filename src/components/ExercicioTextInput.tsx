@@ -58,7 +58,8 @@ export default function ExercicioTextInput() {
                 keyboardType="numeric"
                 style={styles.campoTexto}
                 onChangeText={(texto) => alterarPreco(texto)}
-                value={texto} />
+                value={texto}
+                autoCapitalize="none" />
         </View>
     )
 }
